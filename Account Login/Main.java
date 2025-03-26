@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-//Module 1 Getting Username and password
+//Module 2 somewhat 
 class Main{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

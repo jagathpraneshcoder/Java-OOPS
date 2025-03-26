@@ -13,7 +13,8 @@ public class Loggin {
         for(  userDetails detail : details  ){
             String username = detail.getUsername();
             if(username.equals(name) && detail.checkPassword(password)){
-                detail.countLogin++;
+                //detail.countLogin++;
+                detail.getPassword();
                 return true;
             }
 
